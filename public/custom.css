@@ -1,0 +1,118 @@
+.navbar {
+    background: linear-gradient(90deg, #aac4f5, #8ca9ff, #93bfc7);
+}
+
+.navbar-brand {
+    color: #fff !important;
+    font-weight: 600;
+}
+
+.navbar-toggler {
+    border-color: rgba(255, 255, 255, 0.5);
+}
+
+.navbar-toggler-icon {
+    filter: brightness(0) invert(1); /* ikon jadi putih */
+}
+
+.offcanvas {
+    background: linear-gradient(90deg, #aac4f5, #8ca9ff, #93bfc7);
+    color: #fff;
+    transform: translateX(100%); /* Mulai dari kanan */
+    transition: transform 0.4s ease, opacity 0.4s ease;
+    opacity: 0;
+}
+
+.offcanvas.show {
+    transform: translateX(0); /* Slide masuk */
+    opacity: 1; /* Fade in */
+}
+
+.offcanvas-backdrop {
+    background-color: rgba(0, 0, 0, 0.4); /* lebih gelap / blur */
+    backdrop-filter: blur(3px);
+}
+
+.offcanvas-header {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.offcanvas-title {
+    color: #141313ff;
+}
+
+.btn-close {
+    filter: brightness(0) invert(1); /* tombol X putih */
+}
+
+/* ---------- NAV LINKS ---------- */
+.nav-link {
+    color: #141414 !important;
+}
+
+.nav-link:hover {
+    color: #ffffff !important;
+}
+
+.nav-link.active {
+    font-weight: 600;
+    color: #dbe9ff !important;
+}
+
+.dropdown-menu {
+    background: linear-gradient(90deg, #b4debd, #91c4c3);
+}
+
+.dropdown-item {
+    color: #1a1818;
+}
+
+.dropdown-item:hover {
+    background-color: #0aca9a;
+    color: #fff;
+}
+
+.offcanvas-body .form-control {
+    background-color: #91c4c3;
+    border: 1px solid #fff;
+    color: #fff;
+}
+
+.offcanvas-body .form-control::placeholder {
+    color: #e6e6e6;
+}
+
+.btn-outline-success {
+    color: #fff;
+    border-color: #fff;
+}
+
+.btn-outline-success:hover {
+    background-color: #ffffff;
+    color: #0d6efd;
+}
+
+.soft-card {
+    border: 0;
+    border-radius: 18px;
+    padding: 20px;
+    color: #333;
+    background: linear-gradient(90deg, #f5c857, #ffee91);
+    transition: 0.3s;
+}
+.soft-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+.soft-icon {
+    width: 50px;
+    height: 50px;
+    background: #eaeefe;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.soft-icon img {
+    width: 32px;
+}
